@@ -1,0 +1,36 @@
+{
+  "name": "hubot-cman",
+  "description": "A set of hubot scripts",
+  "version": "0.1.0",
+  "author": "Conor Wright <conor13@msn.com>",
+  "license": "MIT",
+
+  "keywords": ["hubot","hubot-scripts"],
+
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cman131/hubot-cman.git"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6",
+    "html-to-text": "*"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "1.9.2",
+    "sinon-chai": "*",
+    "sinon": "*",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "grunt test"
+  }
+}
